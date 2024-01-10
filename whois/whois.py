@@ -170,7 +170,8 @@ class NICClient(object):
         is encountered.
         """
         response = b''
-        if "SOCKS" in os.environ:
+        print("ASD")
+	if "SOCKS" in os.environ:
             try:
                 import socks
             except ImportError as e:
